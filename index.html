@@ -1,39 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>Alejandra El-Dasouki</title>
+        <!-- <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" /> -->
 
-    <!-- title and favicon -->
-    <title>Web App</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <!-- add link for page specific css -->
+    </head>
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
+    <body>
+        <header>
+            <img class="logo" src="assets/html_css_js.png" alt="logo" />
+            <h1>Web App</h1>
+        </header>
 
-</head>
+        <main>
+            <body data-theme="dark">
+                <div class="name">
+                    <p>Hello, I'm Alejandra</p>
+                    <img
+                        src="/assets/alejandra.jpg"
+                        style="
+                            width: 150px;
+                            height: auto;
+                            margin: auto;
+                            width: 640px;
+                            padding: 50px;
+                        "
+                    />
 
-<body>
-    <header>
-        <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
-    </header>
-
-    <main>
-
-    </main>
-
-</body>
-
+                    <li>I'm 23 years old</li>
+                    <li>Born and raised in Colombia</li>
+                    <li>I use she/her pronouns</li>
+                </div>
+            </body>
+        </main>
+        <footer style="position: fixed; bottom: 0%; width: 100%; height: 2.5rem">
+            @El-Dasouki
+        </footer>
+    </body>
 </html>
